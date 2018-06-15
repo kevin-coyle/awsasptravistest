@@ -1,0 +1,10 @@
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJD7IRUBOXSFAMRKA
+  secret_access_key:
+    secure: tcP6v9jSWsYFWFY6to1EXzAXLW65UjpP0DQ/aNvfXR3zJ+VDmiYW2hCp1ZyPA6wDIiHOlzzQGTja0K8IKnKo4ryTt2AmloRt6pu7ToSFxWhx5cddyczX9tibmEJsfQ02eayBvpBAIaKhHp49PCOe2OV5kDwK7V9pfP4M/0bfqFY0cyZete/+un6JO/9TImMlIutYTvhmpOXzyxvaXN3ves+kVRuIAxLKt/z4RTgZCBdCWo1favPFr4Xn5rGyHqpVBIciFJ2ydysIiOuw3vwbhnU6NwUXpvFa1VOde1CCGxPVEGfufrPXra//4ZvzsdWeFSIfQgxodx8tD4rIXZSQQ5FvKSuUMYbH2od2MhyIa2yqG3vbdK0LVC+XnzQOGyziMHRKx39PI02/Iqb/5diUUkLsr6bnfnJ24k8KoyTGKYwJfJ+qF2AjIpd09JfmOXy3DDRdTzDx19DNReVcJTJ3PdsQl3g2DY3pUJtKHVoYo51LoDDoMQPY+lwcpW2cpxbfZZtLsUt9Vsk8ydkBcShTf5cT4nfiW4qhVoFOPghJOqAy5rwawWmMIVdg2jYGD2YJifiUo9Jwsp39uzKBYPSCzzxzbq/nZaUtptmsH5hwzo5Oy+kHIO5n67HSQ4cCuX4CfxOecqhJTo6KK781C2mm3Lp7fV7yUNDcF52myUCJICY=
+  region: eu-west-1
+  app: Spokd Website - Development
+  env: Development
+  on:
+    repo: kevin-coyle/awsasptravistest

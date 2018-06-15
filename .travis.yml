@@ -5,8 +5,8 @@ script:
   - echo "Nothing to see here."
   - cp .deployment/*.xml .
   - rm -rf .deployment 
-  - mkdir -p /Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp
-  - cp -R * /Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp/.
+  - mkdir -p Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp
+  - cp -R * Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp/.
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAJJ6JOCBCVK4GGSEA

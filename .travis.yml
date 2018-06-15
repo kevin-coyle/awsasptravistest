@@ -1,4 +1,4 @@
-install: true
+install: false
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAJD7IRUBOXSFAMRKA

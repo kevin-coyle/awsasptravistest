@@ -1,6 +1,4 @@
-language: php
-php:
-    - 7.1.9
+install: true
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAJD7IRUBOXSFAMRKA

@@ -1,3 +1,4 @@
+language: csharp
 install: false
 deploy:
   provider: elasticbeanstalk

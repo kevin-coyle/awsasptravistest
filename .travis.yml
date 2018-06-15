@@ -3,10 +3,13 @@ solution: AWSTestTravis.sln
 install: false
 script:
   - echo "Nothing to see here."
-  - cp .deployment/*.xml .
+  - mkdir /tmp/deployment
+  - cp .deployment/*.xml /tmp/deployment/.
   - rm -rf .deployment 
-  - mkdir -p Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp
-  - cp -R * Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp/.
+  - mkdir -p /tmp/deployment/Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp
+  - cp -R * /tmp/deployment/Content/C_C/Users/kevin/source/repos/AWSTestTravis/AWSTestTravis/obj/Debug/Package/PackageTmp/.
+  - rm -rf * 
+  - cp -R /tmp/deployment/* .
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAJJ6JOCBCVK4GGSEA

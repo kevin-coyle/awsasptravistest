@@ -1,6 +1,8 @@
 language: csharp
 solution: AWSTestTravis.sln
 install: false
+script:
+  - echo "No compile please"
 deploy:
   before_deploy:
     - mkdir /tmp/deployment

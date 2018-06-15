@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kevin\\source\\repos\\AWSTestTravis\\AWSTestTravis\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kevin\\source\\repos\\AWSTestTravis\\AWSTestTravis\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

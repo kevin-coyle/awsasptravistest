@@ -13,4 +13,4 @@ deploy:
   env: Development
   on:
     repo: kevin-coyle/awsasptravistest
-  bucket_name: elasticbeanstalk-eu-west-1-954098442937
+  bucket_name: drutek-deployments

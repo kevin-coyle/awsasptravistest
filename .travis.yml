@@ -1,6 +1,8 @@
 language: csharp
 solution: AWSTestTravis.sln
 install: false
+script:
+  - echo "Nothing to see here."
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAJD7IRUBOXSFAMRKA
